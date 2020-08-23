@@ -1,0 +1,11 @@
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    status-page-url-path: /infoOrdenServicio
+    health-check-url-path: /healthOrdenServicio
+    metadata-map:
+       app-owner: WVALDIVIESO
+       description: Test OrdenServicio
